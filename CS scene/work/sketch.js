@@ -5,10 +5,8 @@
 // Extra for Experts:
 // - describe what you did to take this project "above and beyond"
 
-let circleColor = false;
-let currentColor = "white";
-
-let x; let y = 300;
+let x = 200, y = 200;
+let size = 50;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);

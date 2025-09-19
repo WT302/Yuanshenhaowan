@@ -15,21 +15,12 @@ function setup() {
   rectMode(CORNER);
   createCanvas(100, 100);
   background(200);
-  circle(50, 50, 25);
-  draw();
 function setup(){
   createCanvas(400,400);
 }
-
  
 function draw() {
-  background(220);
-  fill(255, 0, 0);
-  circle(mouseX,mouseY, 50);
-  noStroke();
-  rect();
   if (currentBack == 0) background(200, 220, 255);
-  if (currentBack == 1) background(255, 200, 200);
   if (currentBack == 1) background(255, 255, 150);
   if (currentBack == 2) background(200, 255, 200);
   if (currentBack == 3) background(240, 240, 180);

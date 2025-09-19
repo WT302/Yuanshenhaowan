@@ -9,12 +9,6 @@ let x = 200, y = 200;
 let size = 50;
 let currentBack = 0;
 
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-  x = width / 2;
-  rectMode(CORNER);
-  createCanvas(100, 100);
-  background(200);
 function setup(){
   createCanvas(400,400);
 }
